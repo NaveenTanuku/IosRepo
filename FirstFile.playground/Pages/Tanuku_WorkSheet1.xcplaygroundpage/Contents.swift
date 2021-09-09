@@ -16,3 +16,7 @@ let mobileBrand = "Apple"
 //mobileBrand = "Samsung"
 print(mobileBrand)
 
+let city = (name : "Maryville" , population : 11,000)
+let ( cityName ,cityPopulation ) = (city.0 , city.1)
+print(cityName)
+print(cityPopulation)
